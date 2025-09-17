@@ -1,0 +1,17 @@
+C:\Users\Varol\source\repos\Surprise\Surprise\bin\Debug\Surprise.exe.config
+C:\Users\Varol\source\repos\Surprise\Surprise\bin\Debug\Surprise.exe
+C:\Users\Varol\source\repos\Surprise\Surprise\bin\Debug\Surprise.pdb
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.csproj.AssemblyReference.cache
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.Form1.resources
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.Properties.Resources.resources
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.csproj.GenerateResource.cache
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.csproj.CoreCompileInputs.cache
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.exe
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.pdb
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.Form2.resources
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.Form3.resources
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.Form4.resources
+C:\Users\Varol\source\repos\Surprise\Surprise\bin\Debug\Surprise.exe.manifest
+C:\Users\Varol\source\repos\Surprise\Surprise\bin\Debug\Surprise.application
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.exe.manifest
+C:\Users\Varol\source\repos\Surprise\Surprise\obj\Debug\Surprise.application

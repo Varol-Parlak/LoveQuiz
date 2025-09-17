@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Surprise.exe" version="1.0.0.0" publicKeyToken="78c8f95cc8182e8f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Surprise" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Surprise.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Surprise.exe" size="18400">
+      <assemblyIdentity name="Surprise" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tPaJQAUWYL3ZXZiqnFafrEpwvI/4G2D/ddNKmUMZd0Q=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Surprise.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-VJTODAR\Varol" issuerKeyHash="f71f10aa2c51c40d4fe7734ef8c32d0b303d077b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>clZNoBNbYTTVvYiLwPk8XnK8yr8KXlOo1laH1N7GCIE=</DigestValue></Reference></SignedInfo><SignatureValue>Nkt+bVbJtrA5QTsVnd4EaT8vKYO4WxkdSMLjWJC1GoHUo6v0EQVJyRN/yoy5mBPlJyJYX/NkVnT0EDmx0+2fPTpaDIMPR5xmZ4tywsXe/3hV0uxNZV9Aw7Wkd4gla16MJPaz+SjHLvNm1FrkIbMblMYCgPG6RbCP+xSETZppiJA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0TJC3k+dYveUMJ+ClnNyJ2LeuyTbx3N1srD1zR6kG5IGej0ftTSuixAjCk7NWl20wi3dJqw5U4wkXSTRTkktErVeTf4F/Teq1GFpzpb1aLE2eGpRfxuU+CHG8iHeDUvPL2dSjaIK2NP3PrQ2SEy9hwOszsYktHtSA2eYL2wgbAk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8108c6ded48756d6a8535e0abfcabc725e3cf9c08b88bdd534615b13a04d5672" Description="" Url=""><as:assemblyIdentity name="Surprise.exe" version="1.0.0.0" publicKeyToken="78c8f95cc8182e8f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-VJTODAR\Varol</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ny+fnFM/05jlt9xVnGy1f72fQxjGdWLDecxQfVKiWTo=</DigestValue></Reference></SignedInfo><SignatureValue>tRKBBORWvgabuZ2zYT1c7rgi05jxzgsIKmhecM3rJMFUXuMh9UHz+i4N15fv3nyN9tmKS7p7HCyNTjL1SZKG3ixY1KObox2BjkPUQ/xBt+MUVoIAed8upjZWlU0XvXfW4X8Wj5fAaCo9Rw2gAz5oKihhgWUMANUnk7PnzARJh7M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0TJC3k+dYveUMJ+ClnNyJ2LeuyTbx3N1srD1zR6kG5IGej0ftTSuixAjCk7NWl20wi3dJqw5U4wkXSTRTkktErVeTf4F/Teq1GFpzpb1aLE2eGpRfxuU+CHG8iHeDUvPL2dSjaIK2NP3PrQ2SEy9hwOszsYktHtSA2eYL2wgbAk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRmfvGeuXSoVJOJeBeVRZ8jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYASgBUAE8ARABBAFIAXABWAGEAcgBvAGwwHhcNMjUwNTE3MDk0MjU2WhcNMjYwNTE3MTU0MjU2WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYASgBUAE8ARABBAFIAXABWAGEAcgBvAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANEyQt5PnWL3lDCfgpZzcidi3rsk28dzdbKw9c0epBuSBno9H7U0rosQIwpOzVpdtMIt3SasOVOMJF0k0U5JLRK1Xk3+Bf03qtRhac6W9WixNnhqUX8blPghxvIh3g1Lzy9nUo2iCtjT9z60NkhMvYcDrM7GJLR7UgNnmC9sIGwJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOt7n6X62e1J0fyyOLi4lEyioDtBfYf7mwcyu8QWUH6o0XouDo/pdjNvvux7CrU7dtvynRlrUS7dZCZes+diB5cvSyXx3lFjveodSmdBm2Ts0E+lLc4iTwRGMWvqvuEEJRNTPCapHTtnD2ID1fTO0IOJ6pVSSGWP6/Jfeo8fe1x8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
