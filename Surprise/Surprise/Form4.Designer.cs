@@ -54,7 +54,8 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(621, 96);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Hayatımda Gördüğüm En Güzel Kız\r\nHelin su Sucuk hanımefendi, Varol Parlak Bey\'in\r" +
+            this.label1.Text =" 
+Varol Parlak Bey\'in\r" +
     "\nSevgilisi Olmayı Kabul Ediyor musunuz?\r\n";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
